@@ -3,7 +3,7 @@ Login/Registration functionality
 index.php - single home page which contains seperate html forms for login and registration
 register.php - php page that performs user registration to the database.
                 All the fields should be filled in order to complete registration.
-login.php - php page that checks for the credentials entered in the login form and matches it agains the
+login.php - php page that checks for the credentials entered in the login form and matches it against the
             credentials stored in database. If the credentials match, it displays the value of row2 from
             'contents' table. Else it displays "invalid username/password"
 checkusername.php - php page to check if the username already exists in the database. Jquery calls this page for username validation
